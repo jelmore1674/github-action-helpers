@@ -1,0 +1,5 @@
+node_modules
+# Prevent committing generated dist directory.
+dist
+.pnpm*
+

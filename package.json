@@ -1,0 +1,42 @@
+{
+	"name": "@jelmore1674/github-action-helpers",
+	"version": "0.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"module": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"type": "module",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsup",
+		"lint": "biome lint --error-on-warnings && dprint check",
+		"test": "vitest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jelmore1674/github-action-helpers.git"
+	},
+	"bugs": {
+		"url": "https://github.com/jelmore1674/github-action-helpers/issues"
+	},
+	"homepage": "https://github.com/jelmore1674/github-action-helpers#readme",
+	"keywords": [],
+	"author": "Justin Elmore",
+	"license": "MIT",
+	"packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@types/node": "^22.14.1",
+		"dprint": "^0.49.1",
+		"tsup": "^8.4.0",
+		"typescript": "^5.8.3",
+		"vitest": "^3.1.1"
+	},
+	"dependencies": {
+		"@actions/core": "^1.11.1",
+		"@actions/exec": "^1.1.1",
+		"@actions/github": "^6.0.0"
+	}
+}
