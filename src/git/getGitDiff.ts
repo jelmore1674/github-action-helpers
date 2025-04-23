@@ -21,9 +21,9 @@ interface Addition {
 }
 
 /**
- * Add the change of the package.json
+ * Get the git diff and prepare it to be sent to the graphql api.
  */
-async function gitDiff() {
+async function getGitDiff() {
   // Ensure to add files before checking diff.
   await exec("git", ["add", "."]);
 
@@ -75,39 +75,4 @@ async function gitDiff() {
   return { fileAdditions, fileDeletions };
 }
 
-/**
- * The git commit oid expected at the head of the branch prior to the commit.
- *
- * @param branch - the branch we are currently on.
- */
-async function getExpectedHeadOid(branch: string) {
-  const { stdout: branchOid } = await getExecOutput("git", [
-    "ls-remote",
-    "origin",
-    `refs/heads/${branch}`,
-  ]);
-  const { stdout: headOid } = await getExecOutput("git", [
-    "ls-remote",
-    "origin",
-    "refs/heads/HEAD",
-  ]);
-
-  // Fallback to the HEAD oid.
-  const output = branchOid.split("\t")[0] || headOid.split("\t")[0];
-
-  debug(`getExpectedHeadOid: ${output}`);
-  return output;
-}
-
-/**
- * Get the current git branch.
- */
-async function gitBranch() {
-  const { stdout } = await getExecOutput("git", ["branch", "--show-current"]);
-  const output = stdout.trim();
-
-  debug(`gitBranch: ${output}`);
-  return output;
-}
-
-export { getExpectedHeadOid, gitBranch, gitDiff };
+export { getGitDiff };

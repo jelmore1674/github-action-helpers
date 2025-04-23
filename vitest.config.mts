@@ -9,7 +9,7 @@ export default defineConfig({
     coverage: {
       reporter: ["text", "json", "html"],
       include: ["src"],
-      exclude: ["dist"],
+      exclude: ["dist", "src/validations/index.ts"],
     },
   },
 });

@@ -2,7 +2,7 @@ import { afterEach, describe, expect, test, vi } from "vitest";
 
 import * as actionsExec from "@actions/exec";
 import * as fs from "node:fs";
-import { gitDiff } from "./git";
+import { getGitDiff } from "./getGitDiff";
 
 vi.mock("fs");
 
@@ -31,7 +31,7 @@ describe("gitDiff", () => {
       fileDeletions: [{ path: "vitest.config.mts" }],
     };
 
-    const result = await gitDiff();
+    const result = await getGitDiff();
 
     expect(result).toStrictEqual(expected);
   });
@@ -55,7 +55,7 @@ describe("gitDiff", () => {
       fileDeletions: [{ path: "vitest.config.mts" }],
     };
 
-    const result = await gitDiff();
+    const result = await getGitDiff();
 
     expect(result).toStrictEqual(expected);
   });
