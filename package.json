@@ -33,7 +33,7 @@
 	},
 	"scripts": {
 		"build": "tsup",
-		"lint": "biome lint --error-on-warnings && dprint check",
+		"lint": "biome lint --error-on-warnings && dprint check --excludes CHANGELOG.md",
 		"test": "vitest",
 		"test:coverage": "vitest run --coverage"
 	},
