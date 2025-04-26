@@ -2,35 +2,11 @@
 	"name": "@jelmore1674/github-action-helpers",
 	"version": "0.0.0",
 	"description": "",
-	"main": "dist/index.cjs",
-	"module": "dist/index.js",
-	"types": "dist/index.d.ts",
 	"type": "module",
-	"files": [
-		"dist",
-		"git.d.ts",
-		"git.js",
-		"validations.d.ts",
-		"validations.js"
-
-	],
-	"exports": {
-		".": {
-			"types": "./dist/index.d.ts",
-			"import": "./dist/index.js",
-			"require": "./dist/index.cjs"
-		},
-		"./validations": {
-			"types": "./dist/validations/index.d.ts",
-			"import": "./dist/validations/index.js",
-			"require": "./dist/validations/index.cjs"
-		},
-		"./git": {
-			"types": "./dist/git/index.d.ts",
-			"import": "./dist/git/index.js",
-			"require": "./dist/git/index.cjs"
-		}
-	},
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"files": ["dist"],
 	"scripts": {
 		"build": "tsup",
 		"lint": "biome lint --error-on-warnings && dprint check --excludes CHANGELOG.md",

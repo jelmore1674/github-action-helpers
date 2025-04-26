@@ -12,11 +12,23 @@
       "ESNext"
     ],
     "outDir": "dist",
-    "rootDir": "src",
+    "rootDir": "./src",
     "strict": true,
     "esModuleInterop": true,
+    "importHelpers": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
     "declaration": true,
     "skipLibCheck": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "@git/*": [
+        "./git/*"
+      ],
+      "@validations/*": [
+        "./validations/*"
+      ]
+    }
   }
 }
