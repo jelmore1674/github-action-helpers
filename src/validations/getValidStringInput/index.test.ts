@@ -19,10 +19,19 @@ describe("getValidStringInput", () => {
     expect(getValidStringInput("test_string", { validInputs })).toBe(expectedString);
   });
 
+  test("Also successful when input is not required and is empty", () => {
+    const validInputs = ["test", "string"];
+
+    const expectedString = "";
+
+    vi.spyOn(actionsCore, "getInput").mockReturnValue(expectedString);
+    expect(getValidStringInput("test_string", { validInputs })).toBe(expectedString);
+  });
+
   test("Will throw when string is not valid.", () => {
     const validInputs = ["test", "string"];
 
-    vi.spyOn(actionsCore, "getInput").mockReturnValue("");
+    vi.spyOn(actionsCore, "getInput").mockReturnValue("wrong");
     const setFailedMock = vi.spyOn(actionsCore, "setFailed");
     vi.spyOn(process, "exit")
       .mockImplementation((code) => {
