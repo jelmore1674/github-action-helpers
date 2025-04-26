@@ -1,7 +1,7 @@
 import * as actionsExec from "@actions/exec";
 import { afterEach, describe, expect, test, vi } from "vitest";
 
-import { checkIfGitExists } from "./checkIfGitExists";
+import { checkIfGitExists } from "./";
 
 describe("getExpectedHeadOid", () => {
   afterEach(() => {

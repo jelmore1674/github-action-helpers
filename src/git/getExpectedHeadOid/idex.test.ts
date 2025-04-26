@@ -1,7 +1,7 @@
 import * as actionsExec from "@actions/exec";
 import { afterEach, describe, expect, test, vi } from "vitest";
 
-import { getExpectedHeadOid } from "./getExpectedHeadOid";
+import { getExpectedHeadOid } from "./";
 
 const main = "a6fbbb88e01a19ef87ea63ec8251d02ebbd699c0\trefs/heads/main";
 const head = "9430a1583ab55dcdb95a2ad1817eaecc121cb118\trefs/heads/HEAD";

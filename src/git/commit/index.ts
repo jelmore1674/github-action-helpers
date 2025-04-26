@@ -1,9 +1,9 @@
 import { debug } from "@actions/core";
 import { context } from "@actions/github";
 import { getOctokit } from "@actions/github";
-import { getBranch } from "./getBranch";
-import { getExpectedHeadOid } from "./getExpectedHeadOid";
-import { getGitDiff } from "./getGitDiff";
+import { getBranch } from "../getBranch";
+import { getExpectedHeadOid } from "../getExpectedHeadOid";
+import { getGitDiff } from "../getGitDiff";
 
 /**
  * Commit using the GitHub GraphQL api.

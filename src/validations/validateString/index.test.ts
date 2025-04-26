@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { validateString } from "./validateString";
+import { validateString } from "./";
 
 describe("validateString", () => {
   test("Can pass with valid string", () => {

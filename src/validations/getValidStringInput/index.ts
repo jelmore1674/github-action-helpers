@@ -1,6 +1,6 @@
 import { getInput, setFailed } from "@actions/core";
 import { exit } from "node:process";
-import { validateString } from "./validateString";
+import { validateString } from "../validateString";
 
 interface InputOptions {
   /**

@@ -1,6 +1,6 @@
 import * as actionsCore from "@actions/core";
 import { afterEach, describe, expect, test, vi } from "vitest";
-import { getKeyValuePairInput } from "./getKeyValuePairInput";
+import { getKeyValuePairInput } from "./";
 
 describe("getArrayInput", () => {
   afterEach(() => {

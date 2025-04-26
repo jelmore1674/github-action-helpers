@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { stringToBoolean } from "./stringToBoolean";
+import { stringToBoolean } from "./";
 
 test.each([
   { input: "true", expected: true },

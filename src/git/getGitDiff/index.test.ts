@@ -2,7 +2,7 @@ import { afterEach, describe, expect, test, vi } from "vitest";
 
 import * as actionsExec from "@actions/exec";
 import * as fs from "node:fs";
-import { getGitDiff } from "./getGitDiff";
+import { getGitDiff } from "./";
 
 vi.mock("fs");
 

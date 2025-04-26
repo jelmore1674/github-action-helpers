@@ -1,7 +1,7 @@
 import * as actionsExec from "@actions/exec";
 import { afterEach, describe, expect, test, vi } from "vitest";
 
-import { getBranch } from "./getBranch";
+import { getBranch } from "./";
 
 const main = "main";
 

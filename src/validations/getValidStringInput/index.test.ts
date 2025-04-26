@@ -1,7 +1,7 @@
 import * as actionsCore from "@actions/core";
 import * as process from "node:process";
 import { afterEach, describe, expect, test, vi } from "vitest";
-import { getValidStringInput } from "./getValidStringInput";
+import { getValidStringInput } from "./";
 
 vi.mock("process");
 
