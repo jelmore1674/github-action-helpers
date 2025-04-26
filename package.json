@@ -1,12 +1,14 @@
 {
 	"name": "@jelmore1674/github-action-helpers",
-	"version": "0.0.0",
+	"version": "0.2.0",
 	"description": "",
 	"type": "module",
 	"main": "./dist/index.cjs",
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"build": "tsup",
 		"lint": "biome lint --error-on-warnings && dprint check --excludes CHANGELOG.md",
