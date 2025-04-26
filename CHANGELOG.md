@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased] - TBD
+
+### Fixed
+
+- Validation failing when non required input was not defined. [`42446ba`](https://github.com/jelmore1674/github-action-helpers/commit/42446ba88011e3486ec08b1ddd0809ecd737a12a) | | [Justin Elmore](https://github.com/jelmore1674)
+
 ## [0.2.0] - 2025-04-26
 
 _Initial Release_

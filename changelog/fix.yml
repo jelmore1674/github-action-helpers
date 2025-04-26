@@ -1,2 +1,0 @@
-fixed:
-  - Validation failing when non required input was not defined.
