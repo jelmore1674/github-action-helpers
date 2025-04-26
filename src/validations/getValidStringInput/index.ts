@@ -19,11 +19,11 @@ interface InputOptions {
 function getValidStringInput<T = string>(input: string, inputOptions: InputOptions) {
   const actionInput = getInput(input, { required: Boolean(inputOptions.required) });
 
-  if (inputOptions.validInputs) {
+  if (actionInput && inputOptions.validInputs) {
     const { error } = validateString(actionInput, inputOptions.validInputs);
 
     if (error) {
-      setFailed(`The input "${input}" is not valid.\n\n${error}`);
+      setFailed(`Input "${input}" is not valid.\n\n${error}`);
       exit(1);
     }
   }
