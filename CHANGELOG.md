@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased] - TBD
+
+### Changed
+
+- Updates `@types/node` from 22.14.1 to 22.15.3 [`c214910`](https://github.com/jelmore1674/github-action-helpers/commit/c214910426327085a5705f0bc9a6333fedfe919d) | [#3](https://github.com/jelmore1674/github-action-helpers/pull/3) | [dependabot](https://github.com/apps/dependabot)
+
 ## [0.2.1] - 2025-04-26
 
 ### Fixed
