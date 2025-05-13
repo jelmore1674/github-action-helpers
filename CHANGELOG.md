@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.2.2] - TBD
+## [0.2.2] - 2025-05-13
 
 ### Changed
 
@@ -23,7 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Validation failing when non required input was not defined. [`42446ba`](https://github.com/jelmore1674/github-action-helpers/commit/42446ba88011e3486ec08b1ddd0809ecd737a12a) | | [Justin Elmore](https://github.com/jelmore1674)
 
-## [0.2.0] - 2025-04-26
+## [0.2.0] - 2025-05-13
 
 _Initial Release_
 
