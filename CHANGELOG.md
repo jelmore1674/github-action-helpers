@@ -13,6 +13,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Separate `NPM_PUBLISH` to it's own workflow file. [`91a310e`](https://github.com/jelmore1674/github-action-helpers/commit/91a310eea510022b5631108da03f1582c97f9d45) | [#6](https://github.com/jelmore1674/github-action-helpers/pull/6) | [Justin Elmore](https://github.com/jelmore1674)
 - Updated workflow to publish on cron every Tuesday at 4am UTC. [`91a310e`](https://github.com/jelmore1674/github-action-helpers/commit/91a310eea510022b5631108da03f1582c97f9d45) | [#6](https://github.com/jelmore1674/github-action-helpers/pull/6) | [Justin Elmore](https://github.com/jelmore1674)
 - Updates `@actions/github` from 6.0.0 to 6.0.1 [`5e063ac`](https://github.com/jelmore1674/github-action-helpers/commit/5e063ac915fdce33dc189ca534c772b28f40beba) | [#4](https://github.com/jelmore1674/github-action-helpers/pull/4) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@types/node` from 22.15.3 to 22.15.17 [`523cb64`](https://github.com/jelmore1674/github-action-helpers/commit/523cb64fb0ca2aa2fef1e989420bf76423fff2f0) | [#5](https://github.com/jelmore1674/github-action-helpers/pull/5) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@vitest/coverage-v8` from 3.1.2 to 3.1.3 [`523cb64`](https://github.com/jelmore1674/github-action-helpers/commit/523cb64fb0ca2aa2fef1e989420bf76423fff2f0) | [#5](https://github.com/jelmore1674/github-action-helpers/pull/5) | [dependabot](https://github.com/apps/dependabot)
+- Updates `vitest` from 3.1.2 to 3.1.3 [`523cb64`](https://github.com/jelmore1674/github-action-helpers/commit/523cb64fb0ca2aa2fef1e989420bf76423fff2f0) | [#5](https://github.com/jelmore1674/github-action-helpers/pull/5) | [dependabot](https://github.com/apps/dependabot)
 
 ## [0.2.1] - 2025-04-26
 
