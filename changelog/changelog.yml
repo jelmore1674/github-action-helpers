@@ -1,0 +1,3 @@
+changed:
+  - Separate `NPM_PUBLISH` to it's own workflow file.
+  - Updated workflow to publish on cron every Tuesday at 4am UTC.

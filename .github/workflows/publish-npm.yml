@@ -1,0 +1,35 @@
+name: Publish NPM
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Load secret
+        id: load-op
+        uses: 1password/load-secrets-action@v2
+        with:
+          # Export loaded secrets as environment variables
+          export-env: false
+        env:
+          OP_SERVICE_ACCOUNT_TOKEN: ${{ secrets.OP_SERVICE_ACCOUNT_TOKEN }}
+          NPM_TOKEN: "op://Actions/shared/NPM_TOKEN"
+
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "pnpm"
+      - name: Install Packages.
+        run: pnpm i --frozen-lockfile
+      - name: Build
+        run: pnpm build
+      - uses: JS-DevTools/npm-publish@v3
+        with:
+          token: ${{ steps.load-op.outputs.NPM_TOKEN }}
+          access: public
