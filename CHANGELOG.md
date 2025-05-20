@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.2.3] - TBD
+## [0.2.3] - 2025-05-20
 
 ### Changed
 
@@ -25,7 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updates `@vitest/coverage-v8` from 3.1.2 to 3.1.3 [`523cb64`](https://github.com/jelmore1674/github-action-helpers/commit/523cb64fb0ca2aa2fef1e989420bf76423fff2f0) | [#5](https://github.com/jelmore1674/github-action-helpers/pull/5) | [dependabot](https://github.com/apps/dependabot)
 - Updates `vitest` from 3.1.2 to 3.1.3 [`523cb64`](https://github.com/jelmore1674/github-action-helpers/commit/523cb64fb0ca2aa2fef1e989420bf76423fff2f0) | [#5](https://github.com/jelmore1674/github-action-helpers/pull/5) | [dependabot](https://github.com/apps/dependabot)
 
-## [0.2.1] - 2025-04-26
+## [0.2.1] - 2025-05-20
 
 ### Fixed
 
