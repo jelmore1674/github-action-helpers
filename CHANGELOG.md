@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.4] - TBD
+
+### Fixed
+
+- Prevent release workflow from always triggering a release. [`3e41159`](https://github.com/jelmore1674/github-action-helpers/commit/3e41159a00d5df7d5b19a771ca904ed81c9cd29d) | [#8](https://github.com/jelmore1674/github-action-helpers/pull/8) | [Justin Elmore](https://github.com/jelmore1674)
+
 ## [0.2.3] - 2025-05-20
 
 ### Changed
@@ -40,6 +46,7 @@ _Initial Release_
 - Updates `@vitest/coverage-v8` from 3.1.1 to 3.1.2 ([`ce2897f`](https://github.com/jelmore1674/github-action-helpers/commit/ce2897f495b6fef2da88a6f5164c4f661ccd64a7)) ([#1](https://github.com/jelmore1674/github-action-helpers/pull/1)) ([dependabot](https://github.com/apps/dependabot))
 - Updates `vitest` from 3.1.1 to 3.1.2 ([`ce2897f`](https://github.com/jelmore1674/github-action-helpers/commit/ce2897f495b6fef2da88a6f5164c4f661ccd64a7)) ([#1](https://github.com/jelmore1674/github-action-helpers/pull/1)) ([dependabot](https://github.com/apps/dependabot))
 
+[0.2.4]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.4
 [0.2.3]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.3
 [0.2.2]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.2
 [0.2.1]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.1
