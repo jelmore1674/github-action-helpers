@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.2.4] - TBD
+## [0.2.4] - 2025-05-27
 
 ### Fixed
 
@@ -19,7 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updates `dprint` from 0.49.1 to 0.50.0 [`bc688d3`](https://github.com/jelmore1674/github-action-helpers/commit/bc688d314fcc40e299f2c1d26990bae68213fc47) | [#7](https://github.com/jelmore1674/github-action-helpers/pull/7) | [dependabot](https://github.com/apps/dependabot)
 - Updates `tsup` from 8.4.0 to 8.5.0 [`bc688d3`](https://github.com/jelmore1674/github-action-helpers/commit/bc688d314fcc40e299f2c1d26990bae68213fc47) | [#7](https://github.com/jelmore1674/github-action-helpers/pull/7) | [dependabot](https://github.com/apps/dependabot)
 
-## [0.2.2] - 2025-05-13
+## [0.2.2] - 2025-05-27
 
 ### Changed
 
@@ -37,7 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Validation failing when non required input was not defined. [`42446ba`](https://github.com/jelmore1674/github-action-helpers/commit/42446ba88011e3486ec08b1ddd0809ecd737a12a) | | [Justin Elmore](https://github.com/jelmore1674)
 
-## [0.2.0] - 2025-05-13
+## [0.2.0] - 2025-05-27
 
 _Initial Release_
 
