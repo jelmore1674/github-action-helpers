@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.7] - TBD
+
+### Changed
+
+- Updates `@biomejs/biome` from 1.9.4 to 2.0.6 [`ceffa88`](https://github.com/jelmore1674/github-action-helpers/commit/ceffa88b567801917ba51f750f7015bb4c7821d7) | [#14](https://github.com/jelmore1674/github-action-helpers/pull/14) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@types/node` from 22.15.30 to 24.0.10 [`ceffa88`](https://github.com/jelmore1674/github-action-helpers/commit/ceffa88b567801917ba51f750f7015bb4c7821d7) | [#14](https://github.com/jelmore1674/github-action-helpers/pull/14) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@vitest/coverage-v8` from 3.2.2 to 3.2.4 [`ceffa88`](https://github.com/jelmore1674/github-action-helpers/commit/ceffa88b567801917ba51f750f7015bb4c7821d7) | [#14](https://github.com/jelmore1674/github-action-helpers/pull/14) | [dependabot](https://github.com/apps/dependabot)
+- Updates `dprint` from 0.50.0 to 0.50.1 [`ceffa88`](https://github.com/jelmore1674/github-action-helpers/commit/ceffa88b567801917ba51f750f7015bb4c7821d7) | [#14](https://github.com/jelmore1674/github-action-helpers/pull/14) | [dependabot](https://github.com/apps/dependabot)
+- Updates `vitest` from 3.2.2 to 3.2.4 [`ceffa88`](https://github.com/jelmore1674/github-action-helpers/commit/ceffa88b567801917ba51f750f7015bb4c7821d7) | [#14](https://github.com/jelmore1674/github-action-helpers/pull/14) | [dependabot](https://github.com/apps/dependabot)
+
 ## [0.2.6] - 2025-06-10
 
 ### Changed
@@ -62,6 +72,7 @@ _Initial Release_
 - Updates `@vitest/coverage-v8` from 3.1.1 to 3.1.2 ([`ce2897f`](https://github.com/jelmore1674/github-action-helpers/commit/ce2897f495b6fef2da88a6f5164c4f661ccd64a7)) ([#1](https://github.com/jelmore1674/github-action-helpers/pull/1)) ([dependabot](https://github.com/apps/dependabot))
 - Updates `vitest` from 3.1.1 to 3.1.2 ([`ce2897f`](https://github.com/jelmore1674/github-action-helpers/commit/ce2897f495b6fef2da88a6f5164c4f661ccd64a7)) ([#1](https://github.com/jelmore1674/github-action-helpers/pull/1)) ([dependabot](https://github.com/apps/dependabot))
 
+[0.2.7]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.7
 [0.2.6]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.6
 [0.2.5]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.5
 [0.2.4]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.4
