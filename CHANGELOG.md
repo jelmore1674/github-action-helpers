@@ -14,6 +14,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updates `@vitest/coverage-v8` from 3.2.2 to 3.2.4 [`ceffa88`](https://github.com/jelmore1674/github-action-helpers/commit/ceffa88b567801917ba51f750f7015bb4c7821d7) | [#14](https://github.com/jelmore1674/github-action-helpers/pull/14) | [dependabot](https://github.com/apps/dependabot)
 - Updates `dprint` from 0.50.0 to 0.50.1 [`ceffa88`](https://github.com/jelmore1674/github-action-helpers/commit/ceffa88b567801917ba51f750f7015bb4c7821d7) | [#14](https://github.com/jelmore1674/github-action-helpers/pull/14) | [dependabot](https://github.com/apps/dependabot)
 - Updates `vitest` from 3.2.2 to 3.2.4 [`ceffa88`](https://github.com/jelmore1674/github-action-helpers/commit/ceffa88b567801917ba51f750f7015bb4c7821d7) | [#14](https://github.com/jelmore1674/github-action-helpers/pull/14) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@biomejs/biome` from 2.0.6 to 2.1.3 [`8717394`](https://github.com/jelmore1674/github-action-helpers/commit/8717394535ae5f9e0b0f41f055b7c3ac6ae801f5) | [#15](https://github.com/jelmore1674/github-action-helpers/pull/15) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@types/node` from 24.0.10 to 24.2.0 [`8717394`](https://github.com/jelmore1674/github-action-helpers/commit/8717394535ae5f9e0b0f41f055b7c3ac6ae801f5) | [#15](https://github.com/jelmore1674/github-action-helpers/pull/15) | [dependabot](https://github.com/apps/dependabot)
+- Updates `typescript` from 5.8.3 to 5.9.2 [`8717394`](https://github.com/jelmore1674/github-action-helpers/commit/8717394535ae5f9e0b0f41f055b7c3ac6ae801f5) | [#15](https://github.com/jelmore1674/github-action-helpers/pull/15) | [dependabot](https://github.com/apps/dependabot)
 
 ## [0.2.6] - 2025-06-10
 
