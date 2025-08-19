@@ -1,0 +1,4 @@
+author: dependabot
+changed:
+  - Updates `@biomejs/biome` from 2.1.4 to 2.2.0
+  - Updates `@types/node` from 24.2.1 to 24.3.0
