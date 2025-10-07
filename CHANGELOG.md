@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.10] - TBD
+
+### Changed
+
+- Updates `@biomejs/biome` from 2.2.4 to 2.2.5 [`8e1cbb0`](https://github.com/jelmore1674/github-action-helpers/commit/8e1cbb0fcff905c91e059581adda48c8dcf321fa) | [#20](https://github.com/jelmore1674/github-action-helpers/pull/20) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@types/node` from 24.4.0 to 24.7.0 [`8e1cbb0`](https://github.com/jelmore1674/github-action-helpers/commit/8e1cbb0fcff905c91e059581adda48c8dcf321fa) | [#20](https://github.com/jelmore1674/github-action-helpers/pull/20) | [dependabot](https://github.com/apps/dependabot)
+- Updates `typescript` from 5.9.2 to 5.9.3 [`8e1cbb0`](https://github.com/jelmore1674/github-action-helpers/commit/8e1cbb0fcff905c91e059581adda48c8dcf321fa) | [#20](https://github.com/jelmore1674/github-action-helpers/pull/20) | [dependabot](https://github.com/apps/dependabot)
+
 ## [0.2.9] - 2025-09-23
 
 ### Changed
@@ -90,6 +98,7 @@ _Initial Release_
 - Updates `@vitest/coverage-v8` from 3.1.1 to 3.1.2 ([`ce2897f`](https://github.com/jelmore1674/github-action-helpers/commit/ce2897f495b6fef2da88a6f5164c4f661ccd64a7)) ([#1](https://github.com/jelmore1674/github-action-helpers/pull/1)) ([dependabot](https://github.com/apps/dependabot))
 - Updates `vitest` from 3.1.1 to 3.1.2 ([`ce2897f`](https://github.com/jelmore1674/github-action-helpers/commit/ce2897f495b6fef2da88a6f5164c4f661ccd64a7)) ([#1](https://github.com/jelmore1674/github-action-helpers/pull/1)) ([dependabot](https://github.com/apps/dependabot))
 
+[0.2.10]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.10
 [0.2.9]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.9
 [0.2.8]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.8
 [0.2.7]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.7
