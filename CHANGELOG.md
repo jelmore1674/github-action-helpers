@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.11] - TBD
+
+### Changed
+
+- Updates `@biomejs/biome` from 2.2.5 to 2.2.6 [`d18f066`](https://github.com/jelmore1674/github-action-helpers/commit/d18f066712d2f586835b4db88e6dac73b56c27cd) | [#21](https://github.com/jelmore1674/github-action-helpers/pull/21) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@types/node` from 24.7.0 to 24.7.2 [`d18f066`](https://github.com/jelmore1674/github-action-helpers/commit/d18f066712d2f586835b4db88e6dac73b56c27cd) | [#21](https://github.com/jelmore1674/github-action-helpers/pull/21) | [dependabot](https://github.com/apps/dependabot)
+
 ## [0.2.10] - 2025-10-14
 
 ### Changed
@@ -98,6 +105,7 @@ _Initial Release_
 - Updates `@vitest/coverage-v8` from 3.1.1 to 3.1.2 ([`ce2897f`](https://github.com/jelmore1674/github-action-helpers/commit/ce2897f495b6fef2da88a6f5164c4f661ccd64a7)) ([#1](https://github.com/jelmore1674/github-action-helpers/pull/1)) ([dependabot](https://github.com/apps/dependabot))
 - Updates `vitest` from 3.1.1 to 3.1.2 ([`ce2897f`](https://github.com/jelmore1674/github-action-helpers/commit/ce2897f495b6fef2da88a6f5164c4f661ccd64a7)) ([#1](https://github.com/jelmore1674/github-action-helpers/pull/1)) ([dependabot](https://github.com/apps/dependabot))
 
+[0.2.11]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.11
 [0.2.10]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.10
 [0.2.9]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.9
 [0.2.8]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.8
