@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.12] - TBD
+
+### Changed
+
+- Updates `@actions/core` from 1.11.1 to 2.0.1 [`e0da2fb`](https://github.com/jelmore1674/github-action-helpers/commit/e0da2fb0601792c16244575fccd6d84ebc86bdc4) | [#24](https://github.com/jelmore1674/github-action-helpers/pull/24) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@actions/exec` from 1.1.1 to 2.0.0 [`e0da2fb`](https://github.com/jelmore1674/github-action-helpers/commit/e0da2fb0601792c16244575fccd6d84ebc86bdc4) | [#24](https://github.com/jelmore1674/github-action-helpers/pull/24) | [dependabot](https://github.com/apps/dependabot)
+
 ## [0.2.11] - 2025-10-21
 
 ### Changed
@@ -105,6 +112,7 @@ _Initial Release_
 - Updates `@vitest/coverage-v8` from 3.1.1 to 3.1.2 ([`ce2897f`](https://github.com/jelmore1674/github-action-helpers/commit/ce2897f495b6fef2da88a6f5164c4f661ccd64a7)) ([#1](https://github.com/jelmore1674/github-action-helpers/pull/1)) ([dependabot](https://github.com/apps/dependabot))
 - Updates `vitest` from 3.1.1 to 3.1.2 ([`ce2897f`](https://github.com/jelmore1674/github-action-helpers/commit/ce2897f495b6fef2da88a6f5164c4f661ccd64a7)) ([#1](https://github.com/jelmore1674/github-action-helpers/pull/1)) ([dependabot](https://github.com/apps/dependabot))
 
+[0.2.12]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.12
 [0.2.11]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.11
 [0.2.10]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.10
 [0.2.9]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.9
