@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.13] - TBD
+
+### Changed
+
+- Updates `@biomejs/biome` from 2.2.6 to 2.3.10 [`ae23c05`](https://github.com/jelmore1674/github-action-helpers/commit/ae23c0590040aa72c71539dc4b497b056b9c4308) | [#25](https://github.com/jelmore1674/github-action-helpers/pull/25) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@types/node` from 24.7.2 to 25.0.3 [`ae23c05`](https://github.com/jelmore1674/github-action-helpers/commit/ae23c0590040aa72c71539dc4b497b056b9c4308) | [#25](https://github.com/jelmore1674/github-action-helpers/pull/25) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@vitest/coverage-v8` from 3.2.4 to 4.0.16 [`ae23c05`](https://github.com/jelmore1674/github-action-helpers/commit/ae23c0590040aa72c71539dc4b497b056b9c4308) | [#25](https://github.com/jelmore1674/github-action-helpers/pull/25) | [dependabot](https://github.com/apps/dependabot)
+- Updates `dprint` from 0.50.2 to 0.51.1 [`ae23c05`](https://github.com/jelmore1674/github-action-helpers/commit/ae23c0590040aa72c71539dc4b497b056b9c4308) | [#25](https://github.com/jelmore1674/github-action-helpers/pull/25) | [dependabot](https://github.com/apps/dependabot)
+- Updates `tsup` from 8.5.0 to 8.5.1 [`ae23c05`](https://github.com/jelmore1674/github-action-helpers/commit/ae23c0590040aa72c71539dc4b497b056b9c4308) | [#25](https://github.com/jelmore1674/github-action-helpers/pull/25) | [dependabot](https://github.com/apps/dependabot)
+- Updates `vitest` from 3.2.4 to 4.0.16 [`ae23c05`](https://github.com/jelmore1674/github-action-helpers/commit/ae23c0590040aa72c71539dc4b497b056b9c4308) | [#25](https://github.com/jelmore1674/github-action-helpers/pull/25) | [dependabot](https://github.com/apps/dependabot)
+
 ## [0.2.12] - 2025-12-23
 
 ### Changed
@@ -112,6 +123,7 @@ _Initial Release_
 - Updates `@vitest/coverage-v8` from 3.1.1 to 3.1.2 ([`ce2897f`](https://github.com/jelmore1674/github-action-helpers/commit/ce2897f495b6fef2da88a6f5164c4f661ccd64a7)) ([#1](https://github.com/jelmore1674/github-action-helpers/pull/1)) ([dependabot](https://github.com/apps/dependabot))
 - Updates `vitest` from 3.1.1 to 3.1.2 ([`ce2897f`](https://github.com/jelmore1674/github-action-helpers/commit/ce2897f495b6fef2da88a6f5164c4f661ccd64a7)) ([#1](https://github.com/jelmore1674/github-action-helpers/pull/1)) ([dependabot](https://github.com/apps/dependabot))
 
+[0.2.13]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.13
 [0.2.12]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.12
 [0.2.11]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.11
 [0.2.10]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.10
