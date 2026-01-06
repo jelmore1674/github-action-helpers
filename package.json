@@ -1,6 +1,6 @@
 {
 	"name": "@jelmore1674/github-action-helpers",
-	"version": "0.2.12",
+	"version": "0.2.13",
 	"description": "",
 	"type": "module",
 	"main": "./dist/index.cjs",
