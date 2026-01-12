@@ -1,0 +1,4 @@
+author: dependabot
+changed:
+  - Updates `@actions/core` from 2.0.1 to 2.0.2
+  - Updates `@actions/github` from 6.0.1 to 7.0.0
