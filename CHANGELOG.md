@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.0] - TBD
+
+### Removed
+
+- [Breaking 🧨] - `cjs` support. (ESM only now). [`ec9d11a`](https://github.com/jelmore1674/github-action-helpers/commit/ec9d11af14f5dd9b10b7cecff04b17c1bde6c6df) | [#36](https://github.com/jelmore1674/github-action-helpers/pull/36) | [Justin Elmore](https://github.com/jelmore1674)
+
+### Fixed
+
+- Fixed file exports in `package.json`. [`ec9d11a`](https://github.com/jelmore1674/github-action-helpers/commit/ec9d11af14f5dd9b10b7cecff04b17c1bde6c6df) | [#36](https://github.com/jelmore1674/github-action-helpers/pull/36) | [Justin Elmore](https://github.com/jelmore1674)
+
 ## [0.2.14] - 2026-04-29
 
 ### Changed
@@ -149,6 +159,7 @@ _Initial Release_
 - Updates `@vitest/coverage-v8` from 3.1.1 to 3.1.2 ([`ce2897f`](https://github.com/jelmore1674/github-action-helpers/commit/ce2897f495b6fef2da88a6f5164c4f661ccd64a7)) ([#1](https://github.com/jelmore1674/github-action-helpers/pull/1)) ([dependabot](https://github.com/apps/dependabot))
 - Updates `vitest` from 3.1.1 to 3.1.2 ([`ce2897f`](https://github.com/jelmore1674/github-action-helpers/commit/ce2897f495b6fef2da88a6f5164c4f661ccd64a7)) ([#1](https://github.com/jelmore1674/github-action-helpers/pull/1)) ([dependabot](https://github.com/apps/dependabot))
 
+[1.0.0]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v1.0.0
 [0.2.14]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.14
 [0.2.13]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.13
 [0.2.12]: https://github.com/jelmore1674/github-action-helpers/releases/tag/v0.2.12

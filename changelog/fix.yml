@@ -1,6 +1,0 @@
-fixed:
-  - Fixed file exports in `package.json`.
-
-removed:
-  breaking:
-    - "`cjs` support. (ESM only now)."
