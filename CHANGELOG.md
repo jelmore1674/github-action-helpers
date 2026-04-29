@@ -21,6 +21,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bumps [actions/setup-node](https://github.com/actions/setup-node) from 4 to 6. [`eb71c27`](https://github.com/jelmore1674/github-action-helpers/commit/eb71c27610eeafe043bf4d02a5785eaff75ecc8c) | [#33](https://github.com/jelmore1674/github-action-helpers/pull/33) | [dependabot](https://github.com/apps/dependabot)
 - Bumps [1password/load-secrets-action](https://github.com/1password/load-secrets-action) from 2 to 4. [`408b7f1`](https://github.com/jelmore1674/github-action-helpers/commit/408b7f15a2c253ec009b773336280a5640db2fa5) | [#34](https://github.com/jelmore1674/github-action-helpers/pull/34) | [dependabot](https://github.com/apps/dependabot)
 - Bumps [pnpm/action-setup](https://github.com/pnpm/action-setup) from 4 to 6. [`06e0788`](https://github.com/jelmore1674/github-action-helpers/commit/06e0788f5d8d60de401900a01e39d9569159021b) | [#32](https://github.com/jelmore1674/github-action-helpers/pull/32) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@actions/core` from 2.0.1 to 3.0.1 [`b5eef67`](https://github.com/jelmore1674/github-action-helpers/commit/b5eef67246f10811a2af69bbf1cebb22cbe335a7) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@actions/exec` from 2.0.0 to 3.0.0 [`b5eef67`](https://github.com/jelmore1674/github-action-helpers/commit/b5eef67246f10811a2af69bbf1cebb22cbe335a7) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@actions/github` from 6.0.1 to 9.1.1 [`b5eef67`](https://github.com/jelmore1674/github-action-helpers/commit/b5eef67246f10811a2af69bbf1cebb22cbe335a7) | [dependabot](https://github.com/apps/dependabot)
 
 ## [0.2.13] - 2026-01-06
 
