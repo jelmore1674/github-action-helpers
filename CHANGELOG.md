@@ -24,6 +24,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updates `@actions/core` from 2.0.1 to 3.0.1 [`b5eef67`](https://github.com/jelmore1674/github-action-helpers/commit/b5eef67246f10811a2af69bbf1cebb22cbe335a7) | [dependabot](https://github.com/apps/dependabot)
 - Updates `@actions/exec` from 2.0.0 to 3.0.0 [`b5eef67`](https://github.com/jelmore1674/github-action-helpers/commit/b5eef67246f10811a2af69bbf1cebb22cbe335a7) | [dependabot](https://github.com/apps/dependabot)
 - Updates `@actions/github` from 6.0.1 to 9.1.1 [`b5eef67`](https://github.com/jelmore1674/github-action-helpers/commit/b5eef67246f10811a2af69bbf1cebb22cbe335a7) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@biomejs/biome` from 2.4.9 to 2.4.13 [`6a293ea`](https://github.com/jelmore1674/github-action-helpers/commit/6a293eab749524c6388b25b3930c099884672f09) | [#35](https://github.com/jelmore1674/github-action-helpers/pull/35) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@types/node` from 25.5.0 to 25.6.0 [`6a293ea`](https://github.com/jelmore1674/github-action-helpers/commit/6a293eab749524c6388b25b3930c099884672f09) | [#35](https://github.com/jelmore1674/github-action-helpers/pull/35) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@vitest/coverage-v8` from 4.1.2 to 4.1.5 [`6a293ea`](https://github.com/jelmore1674/github-action-helpers/commit/6a293eab749524c6388b25b3930c099884672f09) | [#35](https://github.com/jelmore1674/github-action-helpers/pull/35) | [dependabot](https://github.com/apps/dependabot)
+- Updates `dprint` from 0.53.1 to 0.54.0 [`6a293ea`](https://github.com/jelmore1674/github-action-helpers/commit/6a293eab749524c6388b25b3930c099884672f09) | [#35](https://github.com/jelmore1674/github-action-helpers/pull/35) | [dependabot](https://github.com/apps/dependabot)
+- Updates `typescript` from 6.0.2 to 6.0.3 [`6a293ea`](https://github.com/jelmore1674/github-action-helpers/commit/6a293eab749524c6388b25b3930c099884672f09) | [#35](https://github.com/jelmore1674/github-action-helpers/pull/35) | [dependabot](https://github.com/apps/dependabot)
+- Updates `vitest` from 4.1.2 to 4.1.5 [`6a293ea`](https://github.com/jelmore1674/github-action-helpers/commit/6a293eab749524c6388b25b3930c099884672f09) | [#35](https://github.com/jelmore1674/github-action-helpers/pull/35) | [dependabot](https://github.com/apps/dependabot)
 
 ## [0.2.13] - 2026-01-06
 
