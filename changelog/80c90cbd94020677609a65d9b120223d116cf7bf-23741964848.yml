@@ -6,3 +6,4 @@ changed:
   - Updates `dprint` from 0.51.1 to 0.53.1
   - Updates `typescript` from 5.9.3 to 6.0.2
   - Updates `vitest` from 4.0.16 to 4.1.2
+  - Replace deprecated `tsup` with `tsdown`.
