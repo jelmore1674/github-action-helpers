@@ -2,6 +2,8 @@ import * as actionsCore from "@actions/core";
 import { afterEach, describe, expect, test, vi } from "vitest";
 import { getArrayInput } from "./";
 
+vi.mock("@actions/core", { spy: true });
+
 describe("getArrayInput", () => {
   afterEach(() => {
     vi.resetAllMocks();

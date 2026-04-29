@@ -4,6 +4,7 @@ import { afterEach, describe, expect, test, vi } from "vitest";
 import { getValidStringInput } from "./";
 
 vi.mock("process");
+vi.mock("@actions/core", { spy: true });
 
 describe("getValidStringInput", () => {
   afterEach(() => {
@@ -38,7 +39,7 @@ describe("getValidStringInput", () => {
         throw new Error(`Code: ${code}`);
       });
 
-    expect(() => getValidStringInput("test_string", { validInputs })).toThrowError();
+    expect(() => getValidStringInput("test_string", { validInputs })).toThrow();
 
     expect(setFailedMock).toHaveBeenCalled();
   });
