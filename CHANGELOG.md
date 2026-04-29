@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updates `vitest` from 4.0.16 to 4.1.2 [`3cbb834`](https://github.com/jelmore1674/github-action-helpers/commit/3cbb8340cde7d88519071ee91069a0d171650d90) | [dependabot](https://github.com/apps/dependabot)
 - Replace deprecated `tsup` with `tsdown`. [`3cbb834`](https://github.com/jelmore1674/github-action-helpers/commit/3cbb8340cde7d88519071ee91069a0d171650d90) | [dependabot](https://github.com/apps/dependabot)
 - Update to node 24. [`3cbb834`](https://github.com/jelmore1674/github-action-helpers/commit/3cbb8340cde7d88519071ee91069a0d171650d90) | [dependabot](https://github.com/apps/dependabot)
+- Bumps [actions/checkout](https://github.com/actions/checkout) from 4 to 6. [`887d8dd`](https://github.com/jelmore1674/github-action-helpers/commit/887d8dd8f37f1c53e38b0610bc899018a93ba3df) | [dependabot](https://github.com/apps/dependabot)
 
 ## [0.2.13] - 2026-01-06
 
