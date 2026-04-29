@@ -3,6 +3,8 @@ import { afterEach, describe, expect, test, vi } from "vitest";
 
 import { checkIfGitExists } from "./";
 
+vi.mock("@actions/exec", { spy: true });
+
 describe("getExpectedHeadOid", () => {
   afterEach(() => {
     vi.resetAllMocks();

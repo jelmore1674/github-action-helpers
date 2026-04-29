@@ -5,6 +5,7 @@ import * as fs from "node:fs";
 import { getGitDiff } from "./";
 
 vi.mock("fs");
+vi.mock("@actions/exec", { spy: true });
 
 describe("gitDiff", () => {
   afterEach(() => {

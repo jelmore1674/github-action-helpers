@@ -5,6 +5,8 @@ import { getBranch } from "./";
 
 const main = "main";
 
+vi.mock("@actions/exec", { spy: true });
+
 describe("get the current branch", () => {
   afterEach(() => {
     vi.resetAllMocks();
