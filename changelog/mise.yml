@@ -1,0 +1,6 @@
+added:
+  - "`mise` to manage versions."
+
+changed:
+  - Update to use `actions/create-github-app-token@v3` to generate tokens.
+  - Update to `pnpm` to latest version.
