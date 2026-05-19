@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Update to use `actions/create-github-app-token@v3` to generate tokens. [`2935951`](https://github.com/jelmore1674/github-action-helpers/commit/2935951415aa76a87e62eab3e081e797a682602c) | [#42](https://github.com/jelmore1674/github-action-helpers/pull/42) | [Justin Elmore](https://github.com/jelmore1674)
 - Update to `pnpm` to latest version. [`2935951`](https://github.com/jelmore1674/github-action-helpers/commit/2935951415aa76a87e62eab3e081e797a682602c) | [#42](https://github.com/jelmore1674/github-action-helpers/pull/42) | [Justin Elmore](https://github.com/jelmore1674)
+- Bumps [jelmore1674/release-semver-action](https://github.com/jelmore1674/release-semver-action) from 1 to 2. [`b72c4db`](https://github.com/jelmore1674/github-action-helpers/commit/b72c4dbb701f5dec2e5aff44168c61c8d348bbe0) | [#39](https://github.com/jelmore1674/github-action-helpers/pull/39) | [dependabot](https://github.com/apps/dependabot)
 
 ### Added
 
