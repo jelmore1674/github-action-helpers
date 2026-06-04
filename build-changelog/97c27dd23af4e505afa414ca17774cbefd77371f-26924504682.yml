@@ -1,0 +1,7 @@
+author: dependabot
+changed:
+  - Updates `@biomejs/biome` from 2.4.15 to 2.4.16
+  - Updates `@types/node` from 25.9.0 to 25.9.1
+  - Updates `@vitest/coverage-v8` from 4.1.6 to 4.1.8
+  - Updates `tsdown` from 0.22.0 to 0.22.1
+  - Updates `vitest` from 4.1.6 to 4.1.8
