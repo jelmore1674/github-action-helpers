@@ -33,9 +33,9 @@
 	"license": "MIT",
 	"devDependencies": {
 		"@biomejs/biome": "^2.0.6",
-		"@types/node": "^25.0.3",
-		"@vitest/coverage-v8": "4.1.6",
-		"dprint": "^0.54.0",
+		"@types/node": "^26.0.1",
+		"@vitest/coverage-v8": "4.1.9",
+		"dprint": "^0.55.1",
 		"tsdown": "^0.22.0",
 		"typescript": "^6.0.2",
 		"vitest": "^4.0.16"
