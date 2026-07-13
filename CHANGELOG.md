@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updates `dprint` from 0.54.0 to 0.55.1 [`12747c7`](https://github.com/jelmore1674/github-action-helpers/commit/12747c77f19fe8f79bc2b8556c55f6874702d309) | [#46](https://github.com/jelmore1674/github-action-helpers/pull/46) | [dependabot](https://github.com/apps/dependabot)
 - Updates `tsdown` from 0.22.0 to 0.22.3 [`12747c7`](https://github.com/jelmore1674/github-action-helpers/commit/12747c77f19fe8f79bc2b8556c55f6874702d309) | [#46](https://github.com/jelmore1674/github-action-helpers/pull/46) | [dependabot](https://github.com/apps/dependabot)
 - Updates `vitest` from 4.1.6 to 4.1.9 [`12747c7`](https://github.com/jelmore1674/github-action-helpers/commit/12747c77f19fe8f79bc2b8556c55f6874702d309) | [#46](https://github.com/jelmore1674/github-action-helpers/pull/46) | [dependabot](https://github.com/apps/dependabot)
+- Bumps [actions/checkout](https://github.com/actions/checkout) from 6 to 7. [`7325ab9`](https://github.com/jelmore1674/github-action-helpers/commit/7325ab90182217acc4b7be8ed71d8c57d78a09a4) | [#45](https://github.com/jelmore1674/github-action-helpers/pull/45) | [dependabot](https://github.com/apps/dependabot)
 
 ## [1.0.1] - 2026-05-19
 
