@@ -34,10 +34,10 @@
 	"devDependencies": {
 		"@biomejs/biome": "^2.0.6",
 		"@types/node": "^26.0.1",
-		"@vitest/coverage-v8": "4.1.9",
+		"@vitest/coverage-v8": "4.1.10",
 		"dprint": "^0.55.1",
 		"tsdown": "^0.22.0",
-		"typescript": "^6.0.2",
+		"typescript": "^7.0.2",
 		"vitest": "^4.0.16"
 	},
 	"dependencies": {
