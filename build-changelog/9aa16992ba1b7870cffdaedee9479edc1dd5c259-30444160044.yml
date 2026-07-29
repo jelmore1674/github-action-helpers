@@ -1,0 +1,5 @@
+author: dependabot
+changed:
+  - Updates `@biomejs/biome` from 2.5.4 to 2.5.6
+  - Updates `@types/node` from 26.1.1 to 26.1.2
+  - Updates `tsdown` from 0.22.8 to 0.22.14
